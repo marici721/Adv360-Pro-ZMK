@@ -44,7 +44,7 @@
           &kp TAB   &kp Q   &kp W      &kp E      &kp R   &kp T               &kp C_VOLUME_UP                                                                         &kp C_BRIGHTNESS_INC   &kp Y          &kp U      &kp I    &kp O     &kp P   &kp BSLH
  &kp LEFT_CONTROL   &kp A   &kp S    &lt 2 D    &lt 3 F   &kp G             &kp C_VOLUME_DOWN      &kp CAPSLOCK          &none                   &kp LGUI  &kp RCTRL  &kp C_BRIGHTNESS_DEC   &kp H          &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
         &kp LSHFT   &kp Z   &kp X      &kp C    &lt 4 V   &kp B                                                     &kp DELETE                  &kp PG_UP                                    &kp N          &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-      &bootloader   &none   &none  &kp EQUAL  &kp MINUS                    &mt LEFT_ALT SPACE  &kp LEFT_COMMAND  &kp BACKSPACE                  &kp ENTER   &kp RCMD             &kp SPACE          &kp BACKSPACE      &none    &none     &none      &none
+            &none   &none   &none  &kp EQUAL  &kp MINUS                    &mt LEFT_ALT SPACE  &kp LEFT_COMMAND  &kp BACKSPACE                  &kp ENTER   &kp RCMD             &kp SPACE          &kp BACKSPACE      &none    &none     &none      &none
             >;
         };
 
