@@ -80,11 +80,11 @@
 
         layer_Layer__4 {
             bindings = <
-  &none   &none   &none   &none   &none   &none            &none                                                   &none             &none                 &none              &none                  &none              &none   &none
-  &none   &none   &none   &none   &none   &none            &none                                                   &none             &none        &kp LEFT_BRACE  &kp DOUBLE_QUOTES        &kp RIGHT_BRACE              &none   &none
-  &none   &none   &none   &none   &none   &none            &none   &none   &none                   &none   &none   &none  &kp LEFT_BRACKET         &kp LESS_THAN           &kp PIPE       &kp GREATER_THAN  &kp RIGHT_BRACKET   &none
-  &none   &none   &none   &none   &none   &none                            &none                   &none                             &none  &kp LEFT_PARENTHESIS   &kp SINGLE_QUOTE  &kp RIGHT_PARENTHESIS              &none   &none
-  &none   &none   &none   &none   &none                    &none   &none   &none                   &none   &none   &none                                   &none              &none                  &none              &none   &none
+  &none   &none   &none   &none   &none   &none            &none                                                                   &none             &none                 &none       &kp ASTERISK                  &none              &none   &none
+  &none   &none   &none   &none   &none   &none            &none                                                                   &none             &none        &kp LEFT_BRACE  &kp DOUBLE_QUOTES        &kp RIGHT_BRACE              &none   &none
+  &none   &none   &none   &none   &none   &none            &none   &none   &none                            &none     &none        &none  &kp LEFT_BRACKET         &kp LESS_THAN           &kp PIPE       &kp GREATER_THAN  &kp RIGHT_BRACKET   &none
+  &none   &none   &none   &none   &none   &none                            &none                            &none                             &kp QUESTION  &kp LEFT_PARENTHESIS   &kp SINGLE_QUOTE  &kp RIGHT_PARENTHESIS              &none   &none
+  &none   &none   &none   &none   &none                    &none   &none   &none                  &kp EXCLAMATION  &kp HASH  &kp AT_SIGN                              &kp DOLLAR        &kp PERCENT                  &none              &none   &none
             >;
         };
 
