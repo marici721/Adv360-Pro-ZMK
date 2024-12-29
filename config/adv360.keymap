@@ -32,6 +32,12 @@
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
+   td_capslock: tap_dance_0 {  // Add your tap-dance behavior here
+        compatible = "zmk,behavior-tap-dance";
+        #binding-cells = <0>;
+        tapping-term-ms = <200>; // Adjust this as needed
+        bindings = <&kp CAPSLOCK>, <&kp L>, <&kp S>; // Define bindings for taps
+    };
   };
 
     keymap {
