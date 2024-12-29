@@ -32,6 +32,15 @@
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
+
+        caps_lock_combo: combo {
+        compatible = "zmk,behavior-combo";
+        #binding-cells = <0>;
+        bindings = <&kp S &kp L>;
+        layers = <0>;
+        timeout-ms = <1000>;
+        binding = <&kp CAPSLOCK>;
+    };
   };
 
     keymap {
@@ -45,6 +54,7 @@
  &kp LEFT_CONTROL         &kp A   &kp S    &lt 2 D    &lt 3 F   &kp G                     &kp ENTER      &kp C_VOL_DN   &kp C_VOL_UP                  &kp C_BRI_DN  &kp C_BRI_UP  &kp BACKSLASH   &kp H          &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
         &kp LSHFT         &kp Z   &kp X      &kp C    &lt 4 V   &kp B                                                     &kp DELETE                     &kp PG_UP                                &kp N          &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
             &none  &kp CAPSLOCK   &none  &kp EQUAL  &kp MINUS                    &mt LEFT_ALT SPACE  &kp LEFT_COMMAND  &kp BACKSPACE                     &kp ENTER      &kp RCMD      &kp SPACE          &kp BACKSPACE      &none    &none     &none      &none
+            < &caps_lock_combo >
             >;
         };
 
