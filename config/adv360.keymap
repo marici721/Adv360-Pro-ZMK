@@ -31,6 +31,13 @@
         quick_tap_ms = <175>;
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
+   };
+
+   td_capslock: tap_dance_0 {
+        compatible = "zmk,behavior-tap-dance";
+        #binding-cells = <0>;
+        tapping-term-ms = <200>; // Adjust this as needed
+        bindings = <&kp CAPSLOCK>, <&kp L>, <&kp S>; // Define bindings for taps
     };
   };
 
