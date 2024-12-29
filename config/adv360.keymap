@@ -45,14 +45,14 @@
 
         my_screen_capture_to_clipboard {
             bindings = <&kp LG(LS(LC(N4)))>;
-            key-positions = <30 31 32>;
+            key-positions = <16 17 18>;
             timeout-ms = <50>;
             layers = <0>;
         };
 
         my_screen_capture_to_files {
             bindings = <&kp LG(LS(N4))>;
-            key-positions = <29 30 31 32>;
+            key-positions = <15 16 17 18>;
             timeout-ms = <50>;
             layers = <0>;
         };
@@ -88,7 +88,7 @@
   &none   &none   &none   &none       &none   &none            &none                                                   &none   &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &none    &none
   &none   &none   &none   &none  &kp KP_DOT   &none            &none   &none   &none                   &none   &none   &none   &none  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6    &none    &none
   &none   &none   &none   &none       &none   &none                            &none                   &none                   &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &none    &none
-  &none   &none   &none   &none       &none                    &none   &none   &none                  &trans   &none  &kp N0                 &none         &none         &none    &none    &none
+  &none   &none   &none   &none       &none                    &kp SPACE   &none   &none                  &trans   &none  &kp N0                 &none         &none         &none    &none    &none
             >;
         };
 
