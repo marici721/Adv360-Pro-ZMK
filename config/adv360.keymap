@@ -43,9 +43,16 @@
     combos {
         compatible = "zmk,combos";
 
-        my_screen_capture {
+        my_screen_capture_to_clipboard {
             bindings = <&kp LG(LS(LC(N4)))>;
-            key-positions = <47 48 49 50>;
+            key-positions = <30 31 32>;
+            timeout-ms = <50>;
+            layers = <0>;
+        };
+
+        my_screen_capture_to_files {
+            bindings = <&kp LG(LS(N4))>;
+            key-positions = <29 30 31 32>;
             timeout-ms = <50>;
             layers = <0>;
         };
