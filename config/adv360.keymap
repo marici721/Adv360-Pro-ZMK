@@ -33,7 +33,7 @@
         bindings = <&kp>, <&kp>;
     };
 
-        caps_lock_combo: combo {
+    caps_lock_combo: combo {
         compatible = "zmk,behavior-combo";
         #binding-cells = <0>;
         bindings = <&kp S &kp L>;
