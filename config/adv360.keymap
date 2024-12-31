@@ -37,14 +37,14 @@
         shift_caps_left: shift_caps_left_dance {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <170>;
+            tapping-term-ms = <190>;
             bindings = <&kp LSHIFT>, <&kp CAPSLOCK>;
         };
         
         shift_caps_right: shift_caps_right_dance {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <170>;
+            tapping-term-ms = <190>;
             bindings = <&kp RSHIFT>, <&kp CAPSLOCK>;
         };
     };
