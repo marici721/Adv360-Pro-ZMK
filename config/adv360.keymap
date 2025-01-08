@@ -20,18 +20,6 @@
         #include "macros.dtsi"
     #include "version.dtsi"
 
-        lt: layer_tap {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LAYER_TAP";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick_tap_ms = <175>;
-            flavor = "hold-preferred";        // Changed to hold-preferred
-            bindings = <&mo>, <&kp>;
-            hold-trigger-key-positions = <0>;  // Added this to improve layer switching
-            hold-trigger-on-release;          // Added this to make it more responsive
-        };
-
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
