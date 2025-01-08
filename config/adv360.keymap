@@ -26,8 +26,10 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             quick_tap_ms = <175>;
-            flavor = "tap-preferred";
+            flavor = "hold-preferred";        // Changed to hold-preferred
             bindings = <&mo>, <&kp>;
+            hold-trigger-key-positions = <0>;  // Added this to improve layer switching
+            hold-trigger-on-release;          // Added this to make it more responsive
         };
 
         hm: homerow_mods {
