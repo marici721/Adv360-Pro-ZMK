@@ -68,21 +68,21 @@
 
         layer_qwerty {
             bindings = <
-&kp ESCAPE        &kp N1  &kp N2  &kp N3     &kp N4     &kp N5  &kp GRAVE                                                                                                &kp C_EJECT    &kp N6  &kp N7         &kp N8     &kp N9   &kp N0         &kp PIPE
-&kp TAB           &kp Q   &kp W   &kp E      &kp R      &kp T   &none                                                                                                    &none          &kp Y   &kp U          &kp I      &kp O    &kp SEMICOLON  &kp BSLH
-&kp LEFT_CONTROL  &kp A   &kp S   &lt 3 D    &lt 6 F    &kp G   &kp ENTER                      &kp C_VOL_DN      &kp C_VOL_UP     &kp C_BRI_DN  &kp C_BRI_UP             &kp BACKSLASH  &kp H   &kp J          &kp K      &kp L    &kp P          &kp SQT
-&shift_caps_left  &kp Z   &kp X   &kp C      &lt 5 V    &kp B                                                    &kp DELETE       &mo 4                                                 &kp N   &kp M          &kp COMMA  &kp DOT  &kp FSLH       &shift_caps_right
-&none             &tog 1   &none   &kp EQUAL  &kp MINUS                     &mt LEFT_ALT SPACE  &kp LEFT_COMMAND  &kp BACKSPACE    &kp ENTER     &kp RCMD      &kp SPACE                         &kp BACKSPACE  &none      &none    &none          &none
+&kp ESCAPE        &kp N1  &kp N2   &kp N3     &kp N4     &kp N5  &kp GRAVE                                                                                                &kp C_EJECT    &kp N6  &kp N7         &kp N8     &kp N9   &kp N0         &kp PIPE
+&kp TAB           &kp Q   &kp W    &kp E      &kp R      &kp T   &none                                                                                                    &none          &kp Y   &kp U          &kp I      &kp O    &kp SEMICOLON  &kp BSLH
+&kp LEFT_CONTROL  &kp A   &lt 5 S  &lt 3 D    &lt 6 F    &kp G   &kp ENTER                      &kp C_VOL_DN      &kp C_VOL_UP     &kp C_BRI_DN  &kp C_BRI_UP             &kp BACKSLASH  &kp H   &kp J          &kp K      &kp L    &kp P          &kp SQT
+&shift_caps_left  &kp Z   &kp X    &kp C      &kp V      &kp B                                                    &kp DELETE       &mo 4                                                 &kp N   &kp M          &kp COMMA  &kp DOT  &kp FSLH       &shift_caps_right
+&none             &tog 1  &none    &kp EQUAL  &kp MINUS                     &mt LEFT_ALT SPACE  &kp LEFT_COMMAND  &kp BACKSPACE    &kp ENTER     &kp RCMD      &kp SPACE                         &kp BACKSPACE  &none      &none    &none          &none
             >;
         };
 
         layer_colemak-dh {
             bindings = <
-&kp ESCAPE        &kp N1  &kp N2  &kp N3     &kp N4     &kp N5  &kp GRAVE                                                                                                &kp C_EJECT    &kp N6  &kp N7         &kp N8     &kp N9   &kp N0         &kp PIPE
-&kp TAB           &kp Q   &kp W   &kp F      &kp P      &kp B   &none                                                                                                    &none          &kp J   &kp L          &kp U      &kp Y    &kp SEMICOLON  &kp BSLH
-&kp LEFT_CONTROL  &kp A   &kp R   &lt 3 S    &lt 6 T    &kp G   &kp ENTER                      &kp C_VOL_DN      &kp C_VOL_UP     &kp C_BRI_DN  &kp C_BRI_UP             &kp BACKSLASH  &kp M   &kp N          &kp E      &kp I    &kp O          &kp SQT
-&shift_caps_left  &kp Z   &kp X   &kp C      &lt 5 D    &kp V                                                    &kp DELETE       &mo 4                                                 &kp K   &kp H          &kp COMMA  &kp DOT  &kp FSLH       &shift_caps_right
-&none             &to 0   &none   &kp EQUAL  &kp MINUS                     &mt LEFT_ALT SPACE  &kp LEFT_COMMAND  &kp BACKSPACE    &kp ENTER     &kp RCMD      &kp SPACE                         &kp BACKSPACE  &none      &none    &none          &none
+&kp ESCAPE        &kp N1  &kp N2   &kp N3     &kp N4     &kp N5  &kp GRAVE                                                                                                &kp C_EJECT    &kp N6  &kp N7         &kp N8     &kp N9   &kp N0         &kp PIPE
+&kp TAB           &kp Q   &kp W    &kp F      &kp P      &kp B   &none                                                                                                    &none          &kp J   &kp L          &kp U      &kp Y    &kp SEMICOLON  &kp BSLH
+&kp LEFT_CONTROL  &kp A   &lt 5 R  &lt 3 S    &lt 6 T    &kp G   &kp ENTER                      &kp C_VOL_DN      &kp C_VOL_UP     &kp C_BRI_DN  &kp C_BRI_UP             &kp BACKSLASH  &kp M   &kp N          &kp E      &kp I    &kp O          &kp SQT
+&shift_caps_left  &kp Z   &kp X    &kp C      &kp D      &kp V                                                    &kp DELETE       &mo 4                                                 &kp K   &kp H          &kp COMMA  &kp DOT  &kp FSLH       &shift_caps_right
+&none             &to 0   &none    &kp EQUAL  &kp MINUS                     &mt LEFT_ALT SPACE  &kp LEFT_COMMAND  &kp BACKSPACE    &kp ENTER     &kp RCMD      &kp SPACE                         &kp BACKSPACE  &none      &none    &none          &none
             >;
         };
 
@@ -121,7 +121,7 @@
 &none  &none  &none  &none  &none  &none  &none                                                                 &none  &none             &none                 &kp ASTERISK       &none                  &none              &none
 &none  &none  &none  &none  &none  &none  &none                                                                 &none  &none             &kp LEFT_BRACE        &kp DOUBLE_QUOTES  &kp RIGHT_BRACE        &none              &none
 &none  &none  &none  &none  &none  &none  &none         &none  &none    &none            &none                  &none  &kp LEFT_BRACKET  &kp LESS_THAN         &kp PIPE           &kp GREATER_THAN       &kp RIGHT_BRACKET  &none
-&none  &none  &none  &none  &none  &none                       &none    &none                                          &kp AMPERSAND     &kp LEFT_PARENTHESIS  &kp SINGLE_QUOTE   &kp RIGHT_PARENTHESIS  &none              &none
+&none  &none  &none  &none  &none  &none                       &none    &kp AMPERSAND                                  &kp GRAVE         &kp LEFT_PARENTHESIS  &kp SINGLE_QUOTE   &kp RIGHT_PARENTHESIS  &none              &none
 &none  &none  &none  &none  &none                &none  &none  &none    &kp EXCLAMATION  &kp HASH  &kp AT_SIGN                           &kp DOLLAR            &kp PERCENT        &none                  &none              &none
             >;
         };
